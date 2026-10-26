@@ -30,6 +30,33 @@
 | **变更审计** | 所有修改留痕，支持一键回滚到任意历史版本 |
 | **零 Spring 引擎** | 分流引擎纯 POJO，14 个单元测试不起容器 |
 
+## 控制台截图
+
+| 应用列表 | 开关管理 |
+|:---:|:---:|
+| ![应用列表](docs/screenshots/apps-page.png) | ![开关管理](docs/screenshots/flags-page.png) |
+| 选择应用进入开关管理 | 查看/编辑所有功能开关 |
+
+| 灰度规则 | 实时推送监控 |
+|:---:|:---:|
+| ![灰度规则](docs/screenshots/rules-page.png) | ![实时监控](docs/screenshots/monitor-page.png) |
+| 配置白名单/黑名单/百分比灰度 | SSE 长连接实时接收配置变更 |
+
+| 变更历史 | 环境管理 |
+|:---:|:---:|
+| ![变更历史](docs/screenshots/history-page.png) | ![环境管理](docs/screenshots/envs-page.png) |
+| 所有修改留痕，支持一键回滚 | 管理 dev/staging/prod 环境 |
+
+| 成员权限 | 应用角色 |
+|:---:|:---:|
+| ![成员权限](docs/screenshots/members-page.png) | ![应用角色](docs/screenshots/roles-page.png) |
+| 管理应用成员与权限 | 自定义角色与权限点 |
+
+| 分流调试 |
+|:---:|
+| ![分流调试](docs/screenshots/debug-page.png) |
+| 输入用户属性，查看分流结果与命中规则 |
+
 ## 快速开始
 
 ### 1. 启动基础设施
