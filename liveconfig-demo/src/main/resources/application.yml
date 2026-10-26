@@ -1,0 +1,16 @@
+server:
+  port: ${SERVER_PORT:8081}
+
+spring:
+  application:
+    name: liveconfig-demo
+
+liveconfig:
+  endpoint: ${LIVECONFIG_ENDPOINT:http://localhost:8080}
+  # SDK Key 明文只存在于本机 .env，由 scripts/run-all.sh 导出，不进仓库
+  sdk-key: ${LIVECONFIG_SDK_KEY:}
+  app-name: liveconfig-demo
+
+logging:
+  level:
+    com.z.liveconfig: debug
